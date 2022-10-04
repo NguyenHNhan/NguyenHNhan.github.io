@@ -12,10 +12,10 @@ body{
 }
   
 @keyframes mymove {
-    from   {left: -150px;opacity: 0;}
-    to {left: 0px;}
+    from {opacity: 0;}
+    to {}
 }
-    
+
 #content{
     background-color: rgb(93, 179, 182);
     color: black;
@@ -77,6 +77,7 @@ body{
     background-color: #ffffff;
     border-radius: 4%;
     border: #da0066;
+    
 }
 #right{
     float: left;
@@ -121,15 +122,11 @@ div ul li img{
     clear: both;
     padding:20px;
     margin-left: 10%;
+    animation:  mymove 6s;
+
 }
-#icon1{
-    height: 75px;
-    clear: both;
-    margin-left: 44%;
-}
-#icon1 ul li img{
-    margin: 10PX;
-}
+
+
 #GT {
     font-family:'Courier New', Courier, monospace, 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -137,7 +134,8 @@ div ul li img{
     color: #ffffff;
     margin: 120px 0 0 100px;
     line-height: 60px;
-    
+    animation:  mymove 10s;
+
 }
 
 #avt{
